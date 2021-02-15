@@ -1,0 +1,54 @@
+@import "src/styles/variables";
+
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 315px;
+  padding:inherit;
+  margin-bottom: 20px;
+}
+
+.imgParent{
+  position: relative;
+  height: 280px;
+}
+
+.imgdiv {
+  position: relative;
+  height: 280px ;
+  width: 315px;
+  border-radius: 4px;
+}
+
+.imgHeart{
+  position: relative;
+  top: -270px;
+  left: 260px;
+}
+
+.cardtext1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.cardprice {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 24px;
+  color: #2D2D2D
+}
+
+.cardaddress {
+  font-weight: normal;
+  font-size: 15px;
+  color: #2D2D2D
+}
+
+.cardlistdate {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 32px;
+  color: #979797;
+}
